@@ -43,9 +43,9 @@ El sitio está pensado para ser intuitivo y responsive, adaptándose a diferente
 Aquí está la estructura de carpetas y archivos del proyecto:
 
 pilar-herrera-pasteleria/
-├── index.html
-├── css/
-│   └── styles.css
+|-- index.html
+|-- css/
+|   └── styles.css
 ├── js/
 │   └── index.js
 ├── assets/
