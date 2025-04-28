@@ -9,6 +9,7 @@ Este sitio web busca representar de manera visual y funcional una pastelería go
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación](#instalación)
 - [Uso](#uso)
+- [Estructura de Archivos](#estructura-archivos)
 - [Contribución](#contribución)
 - [Autores](#autores)
 - [Licencia](#licencia)
