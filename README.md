@@ -39,7 +39,7 @@ El objetivo es aplicar los conocimientos adquiridos para construir una página w
 Navega por las diferentes secciones del sitio para conocer los productos, historia y contacto de Pilar Herrera Pastelería.  
 El sitio está pensado para ser intuitivo y responsive, adaptándose a diferentes dispositivos.
 
-## Estructura de Archivos
+## <a id="estructura-archivos"></a>Estructura de Archivos
 
 Aquí está la estructura de carpetas y archivos del proyecto:
 
