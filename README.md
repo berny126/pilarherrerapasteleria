@@ -42,8 +42,6 @@ El sitio está pensado para ser intuitivo y responsive, adaptándose a diferente
 
 Aquí está la estructura de carpetas y archivos del proyecto:
 
-
-<> markdown
 pilar-herrera-pasteleria/
 ├── index.html
 ├── css/
@@ -52,14 +50,14 @@ pilar-herrera-pasteleria/
 │   └── index.js
 ├── assets/
 │   ├── images/
-│   │   └── logo.png
+│   │   ├── logo.png
 │   │   └── pasteles/
 │   │       └── pastel1.jpg
 │   └── fonts/
 │       └── tipografia.ttf
 ├── README.md
 ├── .gitignore
-<> code
+└── LICENSE (opcional)
 
     index.html: El archivo principal de la página.
 
