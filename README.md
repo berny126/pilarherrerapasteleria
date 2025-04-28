@@ -38,6 +38,38 @@ El objetivo es aplicar los conocimientos adquiridos para construir una página w
 Navega por las diferentes secciones del sitio para conocer los productos, historia y contacto de Pilar Herrera Pastelería.  
 El sitio está pensado para ser intuitivo y responsive, adaptándose a diferentes dispositivos.
 
+## Estructura de Archivos
+
+Aquí está la estructura de carpetas y archivos del proyecto:
+
+pilar-herrera-pasteleria/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── index.js
+├── assets/
+│   ├── images/
+│   │   └── logo.png
+│   │   └── pasteles/
+│   │       └── pastel1.jpg
+│   └── fonts/
+│       └── tipografia.ttf
+├── README.md
+├── .gitignore
+└── LICENSE (opcional)
+
+    index.html: El archivo principal de la página.
+
+    css/styles.css: Los estilos globales del sitio.
+
+    js/index.js: El archivo JavaScript que contiene toda la lógica de la página.
+
+    assets/images/: Imágenes utilizadas en el diseño.
+
+    assets/fonts/: Fuentes personalizadas utilizadas en el sitio.
+
+
 ## Contribución
 
 Para colaborar en el proyecto:
