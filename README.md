@@ -53,8 +53,8 @@ pilar-herrera-pasteleria/
       - logo.png
       - pasteles/
          - pastel1.jpg
-      - fonts/
-         - tipografia.ttf
+   - fonts/
+      - tipografia.ttf
 - README.md
 - .gitignore
 - LICENSE (opcional)
