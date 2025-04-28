@@ -46,18 +46,18 @@ pilar-herrera-pasteleria/
 - index.html
 - css/
    - styles.css
-   - js/
-│   └── index.js
-├── assets/
-│   ├── images/
-│   │   ├── logo.png
-│   │   └── pasteles/
-│   │       └── pastel1.jpg
-│   └── fonts/
-│       └── tipografia.ttf
-├── README.md
-├── .gitignore
-└── LICENSE (opcional)
+- js/
+   - index.js
+- assets/
+   - images/
+      - logo.png
+      - pasteles/
+         - pastel1.jpg
+      - fonts/
+         - tipografia.ttf
+- README.md
+- .gitignore
+- LICENSE (opcional)
 
     index.html: El archivo principal de la página.
 
