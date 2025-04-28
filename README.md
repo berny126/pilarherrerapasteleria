@@ -33,8 +33,6 @@ El objetivo es aplicar los conocimientos adquiridos para construir una página w
 2. Abre el proyecto en tu editor de código preferido.
 3. Ejecuta el archivo `index.html` directamente en el navegador.
 
-> **Nota:** Se recomienda estructurar el proyecto en módulos independientes de JavaScript, para importar funciones o componentes al archivo principal (`index.js`), similar a la metodología usada en frameworks modernos como React.
-
 ## Uso
 
 Navega por las diferentes secciones del sitio para conocer los productos, historia y contacto de Pilar Herrera Pastelería.  
