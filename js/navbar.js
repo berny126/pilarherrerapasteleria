@@ -1,6 +1,6 @@
 function renderNavBar() {
   const navbarHTML = `<nav class="navbar">
-      <img src="Logo.svg" alt="logo" width="271.98" height="137.82" />
+      <a href="#home"><img src="Logo.svg" alt="logo" width="271.98" height="137.82" /></a>
 
       <ul class="nav-links">
         <li><a href="#home" class="nav-link ">Inicio</a></li>
@@ -15,7 +15,7 @@ function renderNavBar() {
 
   const menu = document.querySelector(".menu");
   const navLinks = document.querySelector(".nav-links");
-  const links = document.querySelector("nav-link");
+  const links = document.querySelectorAll(".nav-link");
 
   menu.addEventListener("click", () => {
     navLinks.classList.toggle("active");
