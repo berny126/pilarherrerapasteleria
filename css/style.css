@@ -42,17 +42,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-/* Varianbles del proyecto */
-:root {
-
-  /* colores */
-  --texto-primario: #632C24;
-  --texto-secundario: white;
-  --bg-primario: #F2EBE5;
-  --bg-secondario: #8C6249;
-
-  /* fuentes */
-  --fuente-principal: 'Crimson Pro', sans-serif;
-  --fuente-secundaria: 'Inter', sans-serif;
-}
