@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-/* RESET CSS BÁSICO MODERNO */
+/* RESET CSS BÁSICO */
 *,
 *::before,
 *::after {
@@ -11,7 +9,7 @@
 
 html, body {
   height: 100%;
-  font-family: sans-serif; /* puedes cambiarlo a lo que quieras */
+  font-family: sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -43,18 +41,4 @@ button {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-/* Varianbles del proyecto */
-:root {
-
-  /* colores */
-  --texto-primario: #632C24;
-  --texto-secundario: white;
-  --bg-primario: #F2EBE5;
-  --bg-secondario: #8C6249;
-
-  /* fuentes */
-  --fuente-principal: 'Crimson Pro', sans-serif;
-  --fuente-secundaria: 'Inter', sans-serif;
 }
