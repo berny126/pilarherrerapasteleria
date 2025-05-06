@@ -9,7 +9,7 @@
   padding: 195px 221px 0px;
 }
 
-.contenedor1 {
+.contenedor-hero {
   display: flex;
   flex-direction: column;
   gap: 11px;
@@ -19,14 +19,14 @@
   margin-bottom: 100px;
 }
 
-h1 {
+h1.titulo-hero {
   font-size: 60px;
   font-family: "Crimson Pro", serif;
   font-style: italic;
   font-weight: bold;
   line-height: 1em;
 }
-h3 {
+h3.subtitulo-hero {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-weight: lighter;
@@ -35,7 +35,7 @@ h3 {
   #hero {
     flex-direction: column;
   }
-  .contenedor1 {
+  .contenedor-hero {
     margin-bottom: 0px;
   }
 }
@@ -50,14 +50,14 @@ h3 {
   #hero {
     padding: 110px 50px 0px;
   }
-  .contenedor1 {
+  .contenedor-hero {
     width: 220px;
     height: 150px;
   }
-  h1 {
+  h1.titulo-hero {
     font-size: 30px;
   }
-  h3 {
+  h3.subtitulo-hero {
     font-size: 12px;
   }
 }
@@ -65,10 +65,10 @@ h3 {
   #hero {
     padding: 10px 100px 0px;
   }
-  h1 {
+  h1.titulo-hero {
     font-size: 50px;
   }
-  h3 {
+  h3.subtitulo-hero {
     font-size: 20px;
   }
 }
