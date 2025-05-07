@@ -6,7 +6,7 @@
   gap: 102px;
   justify-content: center;
   align-items: center;
-  padding: 195px 221px 0px;
+  padding: 195px 221px 0px 221px;
 }
 
 .contenedor-hero {
@@ -19,18 +19,31 @@
   margin-bottom: 100px;
 }
 
-h1.titulo-hero {
+.titulo-hero {
   font-size: 60px;
   font-family: "Crimson Pro", serif;
   font-style: italic;
   font-weight: bold;
   line-height: 1em;
 }
-h3.subtitulo-hero {
+.subtitulo-hero {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-weight: lighter;
 }
+
+@media (max-width: 1440px) {
+  #hero {
+    padding: 120px 100px 0px 100px;
+  }
+  .titulo-hero {
+    font-size: 50px;
+  }
+  .subtitulo-hero {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 1024px) {
   #hero {
     flex-direction: column;
@@ -40,35 +53,24 @@ h3.subtitulo-hero {
   }
 }
 
-@media (width: 768px) {
+@media (max-width: 768px) {
   #hero {
-    padding: 221px 110px 0px;
+    padding: 221px 110px 0px 110px;
   }
 }
 
 @media (max-width: 425px) {
   #hero {
-    padding: 110px 50px 0px;
+    padding: 110px 50px 0px 50px;
   }
   .contenedor-hero {
     width: 220px;
     height: 150px;
   }
-  h1.titulo-hero {
+  .titulo-hero {
     font-size: 30px;
   }
-  h3.subtitulo-hero {
+  .subtitulo-hero {
     font-size: 12px;
-  }
-}
-@media (min-width: 1440px) {
-  #hero {
-    padding: 10px 100px 0px;
-  }
-  h1.titulo-hero {
-    font-size: 50px;
-  }
-  h3.subtitulo-hero {
-    font-size: 20px;
   }
 }
