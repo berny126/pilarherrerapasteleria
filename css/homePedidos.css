@@ -34,6 +34,7 @@
 	font-size: 4rem;
 	font-family: "Crimsom Pro", serif;
 	font-weight: 400;
+	text-align: center;
 }
 
 .texto-pedidos {
@@ -62,4 +63,20 @@
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
 	border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+	.pedidos {
+		width: 90%;
+	}
+
+	.linea {
+		width: 60px;
+		border: solid #401202 2px;
+		color: #401202;
+	}
+
+	.infinity {
+		padding: 0 32px;
+	}
 }
