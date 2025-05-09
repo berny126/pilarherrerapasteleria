@@ -6,7 +6,7 @@
     padding: 160px 0;
     justify-content: space-around;
     margin: 0 auto;
-    gap: 40px;
+    gap: 80px 40px;
 }
 
 .category {
@@ -36,7 +36,7 @@
     font-size: 3.8em;
     font-weight: normal;
     color: #401202;
-    margin-top: -52px;
+    margin-top: -16px;
 
 }
 

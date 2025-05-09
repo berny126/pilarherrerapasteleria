@@ -1,11 +1,4 @@
 /* Fuente y fondo general de la página */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fef6f2; /* Color crema de fondo */
-    margin: 0;
-    padding: 0;
-    color: #4b2c20; /* Marrón oscuro para el texto */
-  }
   
   /* Sección de productos: título principal */
   .section-title {
@@ -105,4 +98,12 @@ body {
     color: #4c2c1c;               /* Color marrón oscuro */
     margin-bottom: 10px;          /* Espacio debajo del título */
   }
-  
+
+  @media screen and (max-width: 768px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    #panes{
+     padding: 0 10px ;
+    }
+  }
