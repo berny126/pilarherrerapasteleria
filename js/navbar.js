@@ -3,10 +3,10 @@ function renderNavBar() {
       <a href="#home"><img src="/assets/imagenes/Logo.svg" alt="logo" width="271.98" height="137.82" /></a>
 
       <ul class="nav-links">
-        <li><a href="#home" class="nav-link ">Inicio</a></li>
-        <li><a href="#products" class="nav-link ">Productos</a></li>
-        <li><a href="#about-me" class="nav-link ">Sobre mi</a></li>
-        <li><a href="#contact-us" class="nav-link ">Contáctenos</a></li>
+        <li><a href="index.html" class="nav-link ">Inicio</a></li>
+        <li><a href="Productos.html" class="nav-link ">Productos</a></li>
+        <li><a href="perfil.html" class="nav-link ">Sobre mi</a></li>
+        <li><a href="#footer" class="nav-link ">Contáctenos</a></li>
       </ul>
       <button class="menu">☰</button>
     </nav>`;
