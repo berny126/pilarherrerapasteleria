@@ -12,12 +12,13 @@
   text-align: center;
 }
 
-.footer-contacto h1 {
+.footer-contacto h1, .footer-newsletter h2 {
   font-size: 48px;
   font-weight: 400;
 }
 
-.footer-contacto a {
+.footer-contacto a, .footer-newsletter p,
+form {
   font-size: 24px;
 }
 
@@ -36,18 +37,8 @@
   align-items: center;
 }
 
-.footer-newsletter h2 {
-  font-size: 48px;
-  font-weight: 400;
-}
-
 .footer-newsletter form {
   display: flex;
-}
-
-.footer-newsletter p,
-form {
-  font-size: 24px;
 }
 
 .footer-newsletter p {
@@ -58,7 +49,8 @@ form {
 .footer-newsletter button {
   background-color: #401202;
   color: #ffffff;
-  width: 140px;
+  max-width: 140px;
+  min-width: 100px;
   height: 54px;
   border-radius: 0px 25px 25px 0px;
   transition: 0.3s;
@@ -71,8 +63,21 @@ form {
 
 .input-personalizado {
   background-color: #d9d9d9;
-  width: 491px;
+  max-width: 491px;
+  min-width: auto;
   height: 54px;
   border-radius: 25px 0px 0px 25px;
   padding: 0px 28px;
+}
+
+@media(max-width:1440px){
+    .footer-contacto h1, .footer-newsletter h2{
+        font-size: 36px;
+    }
+}
+@media(max-width:1024px){
+  #footer{
+    flex-direction: column;
+    gap: 40px;
+  }
 }
