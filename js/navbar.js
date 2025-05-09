@@ -6,7 +6,7 @@ function renderNavBar() {
         <li><a href="../index.html" class="nav-link ">Inicio</a></li>
         <li><a href="../Productos.html" class="nav-link ">Productos</a></li>
         <li><a href="../perfil.html" class="nav-link ">Sobre mi</a></li>
-        <li><a href="../#footer" class="nav-link ">Contáctenos</a></li>
+        <li><a href="../templates/form.html" class="nav-link ">Contáctenos</a></li>
       </ul>
       <button class="menu">☰</button>
     </nav>`;

@@ -121,3 +121,9 @@ form {
     font-size: 16px;
   }
 }
+
+.desarrollado {
+  font-size: 0.7em;
+  padding: 2px;
+  text-align: center;
+}

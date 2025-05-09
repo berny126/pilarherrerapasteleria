@@ -98,10 +98,10 @@
 }
 
 section h2 {
-  text-align: center; /* Centra horizontalmente el texto */
-  font-size: 32px; /* Tamaño de fuente del título */
-  color: #4c2c1c; /* Color marrón oscuro */
-  margin-bottom: 10px; /* Espacio debajo del título */
+  text-align: center; 
+  font-size: 32px; 
+  color: #4c2c1c; 
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -116,4 +116,8 @@ section h2 {
   .product img {
     height: 190px;
   }
+}
+
+.nav-links {
+  font-size: 18px !important;
 }
