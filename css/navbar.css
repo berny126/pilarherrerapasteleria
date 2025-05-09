@@ -1,6 +1,5 @@
 .navbar {
   background-color: #f2ebe5;
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,9 +32,15 @@
   color: #632c24;
 }
 
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 0px 49px;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar {
-    padding: 0px 70px;
+    padding: 0px 27px;
   }
   .nav-links {
     display: none;

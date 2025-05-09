@@ -12,12 +12,14 @@
   text-align: center;
 }
 
-.footer-contacto h1, .footer-newsletter h2 {
+.footer-contacto h1,
+.footer-newsletter h2 {
   font-size: 48px;
   font-weight: 400;
 }
 
-.footer-contacto a, .footer-newsletter p,
+.footer-contacto a,
+.footer-newsletter p,
 form {
   font-size: 24px;
 }
@@ -50,7 +52,7 @@ form {
   background-color: #401202;
   color: #ffffff;
   max-width: 140px;
-  min-width: 100px;
+  min-width: 80px;
   height: 54px;
   border-radius: 0px 25px 25px 0px;
   transition: 0.3s;
@@ -70,14 +72,52 @@ form {
   padding: 0px 28px;
 }
 
-@media(max-width:1440px){
-    .footer-contacto h1, .footer-newsletter h2{
-        font-size: 36px;
-    }
+@media (max-width: 1440px) {
+  .footer-contacto h1,
+  .footer-newsletter h2 {
+    font-size: 36px;
+  }
 }
-@media(max-width:1024px){
-  #footer{
+
+@media (max-width: 1024px) {
+  #footer {
     flex-direction: column;
     gap: 40px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .footer-contacto h1,
+  .footer-newsletter h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 1024px) {
+  #footer {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  #footer {
+    width: 100%;
+    padding: 90px 30px;
+  }
+  .footer-contacto h1,
+  .footer-newsletter h2 {
+    font-size: 30px;
+  }
+
+  .footer-contacto a,
+  .footer-newsletter p,
+  form {
+    font-size: 20px;
+  }
+  .input-personalizado {
+    font-size: 16px;
+  }
+  .footer-newsletter button {
+    font-size: 16px;
   }
 }
