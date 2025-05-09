@@ -7,7 +7,6 @@
   padding: 0px 229px;
   font-family: "Crimson Pro";
   font-style: italic;
-  font-size: 24px;
 }
 .nav-links {
   display: flex;
@@ -17,6 +16,7 @@
   /* margin-left: 80px;
   margin-right: 80px; */
   align-items: center;
+  font-size: 24px;
 }
 
 .nav-links li a {
@@ -45,6 +45,8 @@
   .nav-links {
     display: none;
     flex-direction: column;
+    gap: 25px;
+    font-size: 20px;
   }
 
   .nav-links.active {
