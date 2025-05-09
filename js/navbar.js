@@ -1,6 +1,6 @@
 function renderNavBar() {
   const navbarHTML = `<nav class="navbar">
-      <a href="#home"><img src="/assets/imagenes/Logo.svg" alt="logo" width="271.98" height="137.82" /></a>
+      <a href="index.html"><img src="/assets/imagenes/Logo.svg" alt="logo" width="271.98" height="137.82" /></a>
 
       <ul class="nav-links">
         <li><a href="../index.html" class="nav-link ">Inicio</a></li>
